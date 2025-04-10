@@ -1,0 +1,40 @@
+# 👉 Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfplan
+*.tfvars
+
+# 👉 Providers compilados o descargados localmente
+terraform-provider-*.exe
+
+# 👉 Archivos ejecutables en general (por si agregás más)
+*.exe
+
+# 👉 VS Code settings
+.vscode/
+*.code-workspace
+
+# 👉 Archivos de sistema de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 👉 Archivos de log
+*.log
+
+# 👉 Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+
+# 👉 Git
+.git/
+
+# Ejecutables y binarios
+*.exe
+
+# Archivos de sistema y del editor
+.vscode/
