@@ -4,5 +4,5 @@ cidr_public_subnet   = ["11.0.1.0/24", "11.0.2.0/24"]
 cidr_private_subnet  = ["11.0.3.0/24", "11.0.4.0/24"]
 us_availability_zone = ["us-east-1a", "us-east-1b"]
 
-public_key = "ssh-rsa TU_LLAVE_PRIVADA"
+public_key = "ssh-rsa TU_LLAVE_PUBLICA"
 ec2_ami_id = "ami-084568db4383264d4"
